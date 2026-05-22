@@ -651,7 +651,7 @@ INDEX_HTML = r"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Claude Agent Watch</title>
+<title>Claudius Minimus</title>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <style>
   :root {
@@ -755,7 +755,7 @@ INDEX_HTML = r"""<!doctype html>
 <body>
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
 <header>
-  <h1>Claude Agent Watch</h1>
+  <h1>Claudius Minimus</h1>
   <span class="meta" id="meta">loading…</span>
   <span class="spacer"></span>
   <button class="btn primary" id="new-toggle">+ New session</button>
@@ -1113,7 +1113,7 @@ def main():
     ThreadingHTTPServer.allow_reuse_address = True
     srv = ThreadingHTTPServer((args.host, args.port), Handler)
     url = f"http://{args.host}:{args.port}"
-    print(f"Claude Agent Watch listening at {url}")
+    print(f"Claudius Minimus listening at {url}")
     print(f"Reading state from: {CLAUDE_HOME}")
 
     def _shutdown(*_):

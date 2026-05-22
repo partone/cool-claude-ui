@@ -1,4 +1,4 @@
-# claude-agent-watch
+# Claudius Minimus
 
 A tiny local web dashboard that shows which Claude Code sessions are running
 on your machine and what they're working on.
